@@ -271,10 +271,6 @@ F 3 "~" H 7550 2350 50  0001 C CNN
 	1    7550 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 2650 7350 2650
-Wire Wire Line
-	7350 2750 7200 2750
 $Comp
 L taobao-c:C104,0603 C2
 U 1 1 5C16E8B4
@@ -306,18 +302,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 1500 3150 1500
 Wire Wire Line
-	6550 2950 7200 2950
-Wire Wire Line
-	6550 2050 7350 2050
-Wire Wire Line
-	6550 2150 7350 2150
-Wire Wire Line
-	7200 2750 7200 2950
-Wire Wire Line
-	6550 2850 7100 2850
-Wire Wire Line
-	7100 2650 7100 2850
-Wire Wire Line
 	6550 2650 7000 2650
 Wire Wire Line
 	7000 2650 7000 2550
@@ -342,10 +326,10 @@ Wire Wire Line
 Wire Wire Line
 	6850 2250 7350 2250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 5C183B77
 P 4050 2450
-F 0 "#PWR?" H 4050 2200 50  0001 C CNN
+F 0 "#PWR0107" H 4050 2200 50  0001 C CNN
 F 1 "GND" H 4100 2250 50  0000 C CNN
 F 2 "" H 4050 2450 50  0001 C CNN
 F 3 "" H 4050 2450 50  0001 C CNN
@@ -356,14 +340,46 @@ Wire Wire Line
 	4050 2350 4050 2450
 Connection ~ 4050 2350
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0110
 U 1 1 5C186C87
 P 3700 1950
-F 0 "#PWR?" H 3700 1800 50  0001 C CNN
+F 0 "#PWR0110" H 3700 1800 50  0001 C CNN
 F 1 "VCC" V 3750 2100 50  0000 L CNN
 F 2 "" H 3700 1950 50  0001 C CNN
 F 3 "" H 3700 1950 50  0001 C CNN
 	1    3700 1950
 	-1   0    0    -1  
 $EndComp
+Text Label 6750 2050 2    50   ~ 0
+TXD
+Text Label 6750 2150 2    50   ~ 0
+RXD
+Wire Wire Line
+	6550 2150 6750 2150
+Wire Wire Line
+	6550 2050 6750 2050
+Text Label 7150 2150 0    50   ~ 0
+TXD
+Text Label 7150 2050 0    50   ~ 0
+RXD
+Wire Wire Line
+	7350 2050 7150 2050
+Wire Wire Line
+	7350 2150 7150 2150
+Text Label 6750 2850 2    50   ~ 0
+DTR
+Text Label 6750 2950 2    50   ~ 0
+RTS
+Wire Wire Line
+	6550 2850 6750 2850
+Wire Wire Line
+	6550 2950 6750 2950
+Text Label 7150 2650 0    50   ~ 0
+DTR
+Text Label 7150 2750 0    50   ~ 0
+RTS
+Wire Wire Line
+	7350 2650 7150 2650
+Wire Wire Line
+	7350 2750 7150 2750
 $EndSCHEMATC
