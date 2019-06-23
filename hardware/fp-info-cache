@@ -1,4 +1,4 @@
-19591986273458564
+19602060503385564
 2EDGK
 2EDGR-2
 2EDGR-2
@@ -44090,7 +44090,7 @@ AMS1117_SOT-223
 module CMS SOT223 4 pins
 CMS SOT
 0
-8
+10
 3
 footprint-lib
 AN9520
@@ -44646,6 +44646,13 @@ MC-306
 4
 4
 footprint-lib
+MCP73831_SOT23_5
+5-pin SOT23 package
+MCP73831 SOT-23-5
+0
+5
+5
+footprint-lib
 MCP73833_DFN
 Plastic DFN, 10 pins, 3x3, Linear Technology
 MCP73833_DFN
@@ -44664,7 +44671,7 @@ MCP73837_MSOP10
 MSOP, 10 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3805fg.pdf#page=18), generated with kicad-footprint-generator ipc_gullwing_generator.py
 MCP73837_MSOP10
 0
-20
+28
 11
 footprint-lib
 MLT-8530
@@ -44833,7 +44840,7 @@ Miniature Crystal Clock Oscillator Abracon ASE series, http://www.abracon.com/Os
 SMD SMT crystal oscillator hand-soldering 3225
 0
 4
-4
+3
 footprint-lib
 osc_debug
 Crystal, HC-49/SMD, 3225
@@ -45745,6 +45752,13 @@ SPI DEBUG
 4
 4
 footprint-lib
+SRV05-4
+6-pin SOT-23 package
+SRV05-4
+0
+6
+6
+footprint-lib
 SS12,do214ac
 DO214AC SS12
 SS12
@@ -45786,6 +45800,20 @@ STEP_MOTOR STEP_MOTOR_2.54_TERMINAL
 0
 4
 4
+footprint-lib
+STM32F030F4_TSSOP20
+20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+STM32F030F4 TSSOP20
+0
+20
+20
+footprint-lib
+STM32F042FxPx_TSSOP20
+20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+STM32F042FxPx
+0
+20
+20
 footprint-lib
 STM32F103C8T6
 48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf) STM32F103C8T6
@@ -63699,27 +63727,6 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
-Panelization.pretty
-mouse-bite-1mm-slot
-
-
-0
-0
-0
-Panelization.pretty
-mouse-bite-2.54mm-slot
-
-
-0
-0
-0
-Panelization.pretty
-mouse-bite-2mm-slot
-
-
-0
-0
-0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
