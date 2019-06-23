@@ -31,7 +31,7 @@ U 1 1 5D05D663
 P 4900 2150
 F 0 "U1" H 4875 3093 60  0000 C CNN
 F 1 "CH340T" H 4875 2987 60  0000 C CNN
-F 2 "footprint-lib:CH340T_SSOP-20" H 4875 2881 60  0000 C CNN
+F 2 "footprint-lib:CH340T_SSOP-20" H 4875 2881 60  0001 C CNN
 F 3 "" H 4900 2150 60  0000 C CNN
 	1    4900 2150
 	1    0    0    -1  
@@ -208,7 +208,7 @@ L Connector:Conn_01x10_Female J1
 U 1 1 5D097AD0
 P 6500 2100
 F 0 "J1" H 6392 1375 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 6392 1466 50  0000 C CNN
+F 1 "SERIAL_HEADER" H 6392 1466 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x10_P1.27mm_Vertical" H 6500 2100 50  0001 C CNN
 F 3 "~" H 6500 2100 50  0001 C CNN
 	1    6500 2100
@@ -2568,4 +2568,24 @@ Wire Wire Line
 NoConn ~ 2500 2400
 NoConn ~ 5500 2600
 NoConn ~ 5500 2700
+Text Label 3100 2200 2    50   ~ 0
+USB_N
+Text Label 3100 2300 2    50   ~ 0
+USB_P
+Text Label 6200 1600 2    50   ~ 0
+TXD
+Text Label 6200 1700 2    50   ~ 0
+RXD
+Text Label 6200 1800 2    50   ~ 0
+CTS
+Text Label 6200 1900 2    50   ~ 0
+DSR
+Text Label 6200 2000 2    50   ~ 0
+RI
+Text Label 6200 2100 2    50   ~ 0
+DCD
+Text Label 6200 2200 2    50   ~ 0
+DTR
+Text Label 6200 2300 2    50   ~ 0
+RTS
 $EndSCHEMATC
